@@ -8,3 +8,5 @@ add_custom_target(run-all)
 
 add_subdirectory(01-array)
 add_subdirectory(02-vector)
+#add_subdirectory(03-deque)
+add_subdirectory(04-list)
