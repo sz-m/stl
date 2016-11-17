@@ -12,8 +12,9 @@ main()
 
   std::cout << "Size: " << std::distance(first, last) << std::endl;
 
-  auto fifth = list.begin();
-  std::advance(fifth, 4);
+  //auto fifth = list.begin();
+  //std::advance(fifth, 4);
+  auto fifth = std::next(list.begin(), 4);
 
   std::cout << "Fifth: " << *fifth << std::endl;
 
