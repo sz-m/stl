@@ -25,3 +25,12 @@ add_custom_target(time-04-list-ex2
   DEPENDS 04-list-ex2
   COMMAND time ./04-list-ex2
 )
+
+add_executable(04-list-ex3
+  list-ex3.cpp
+)
+
+add_custom_target(run-04-list-ex3
+  DEPENDS 04-list-ex3
+  COMMAND ./04-list-ex3
+)
